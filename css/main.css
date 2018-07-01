@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#slider
+{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 8vh;
+}
+
+.slike{
+    width: 10000px;
+    height: auto;
+    position: relative;
+}
+
+.slike img{
+    width: 100vw;
+    float: left;
+}
+
+#napred > img, #nazad >img
+{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#napred
+{
+    position: absolute;
+    right: 0;
+    //top: calc(25vh + 80px);
+}
+
+#napred:hover, #nazad:hover
+{
+    opacity: 0.5;
+}
+
+#nazad
+{
+    position: absolute;
+    left: 0;
+    //top: calc(25vh + 80px);
+}
+
+.fixed-top {
+    height: 8vh;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 5px;
+}
+
+#slider_btn
+{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+    margin-bottom: 50px;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 5px;
+}
+
+#slider_btn img
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 2.5px;
+    height: 15px;
+}
+
+.navbar-brand>img
+{
+    width: 200px;
+}
